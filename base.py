@@ -108,4 +108,4 @@ class CorpoDeBombeiros(OrgaoPublico):
 
 class Hospital (OrgaoPublico):
     def update(self, local, tipo_emergencia):
-        print(f"Hospital acionados. Emergência de {tipo_emergencia} em {local}")
+        print(f"Hospital acionado. Emergência de {tipo_emergencia} em {local}")
